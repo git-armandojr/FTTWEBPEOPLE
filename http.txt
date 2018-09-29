@@ -1,0 +1,41 @@
+HTTP METHODS
+
+POST
+http://localhost:8080/FTTWEBPEOPLE/people?pname=Armando&email=armando@gmail.com&dob=1984-01-06&valuation=99&color=%23000000&cardType=visa&gender=male&period=afternoon
+
+http://localhost:8080/FTTWEBPEOPLE/brand?pname=Renault
+
+http://localhost:8080/FTTWEBPEOPLE/model?pname=Clio&brand=renault
+
+GET
+http://localhost:8080/FTTWEBPEOPLE/people
+http://localhost:8080/FTTWEBPEOPLE/people?pid=6
+http://localhost:8080/FTTWEBPEOPLE/people?pid=600
+
+http://localhost:8080/FTTWEBPEOPLE/brand
+http://localhost:8080/FTTWEBPEOPLE/brand?pid=1
+http://localhost:8080/FTTWEBPEOPLE/brand?pid=1000
+
+http://localhost:8080/FTTWEBPEOPLE/model
+http://localhost:8080/FTTWEBPEOPLE/model?pid=1
+http://localhost:8080/FTTWEBPEOPLE/model?pid=600
+
+PUT
+http://localhost:8080/FTTWEBPEOPLE/people?pid=1&pname=Arthur&email=jrmail@gmail.com&dob=1984-01-06&color=%23ffffff&cardType=American Express&gender=male&period=morning;null;null&valuation=12
+http://localhost:8080/FTTWEBPEOPLE/people?pid=1000&pname=Arthur&email=jrmail@gmail.com&dob=1984-01-06&color=%23ffffff&cardType=American Express&gender=male&period=morning;null;null&valuation=12
+
+http://localhost:8080/FTTWEBPEOPLE/brand?pid=1&pname=Volksvagen
+http://localhost:8080/FTTWEBPEOPLE/brand?pid=1000&pname=Volksvagen
+
+http://localhost:8080/FTTWEBPEOPLE/model?pid=1&pname=Polo&brand=VW
+http://localhost:8080/FTTWEBPEOPLE/model?pid=1000&pname=Polo&brand=VW
+
+DELETE
+http://localhost:8080/FTTWEBPEOPLE/people?pid=1
+http://localhost:8080/FTTWEBPEOPLE/people?pid=400
+
+http://localhost:8080/FTTWEBPEOPLE/brand?pid=3
+http://localhost:8080/FTTWEBPEOPLE/brand?pid=3000
+
+http://localhost:8080/FTTWEBPEOPLE/model?pid=2
+http://localhost:8080/FTTWEBPEOPLE/model?pid=25
